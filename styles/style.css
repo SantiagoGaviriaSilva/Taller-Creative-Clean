@@ -1,0 +1,229 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+header{
+    background: url("/assets/images/primero.png") no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    height: 832px;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: rgb(201, 105, 36);
+    font-size: 50px;
+    margin-top:100px ;
+    
+
+
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    
+}
+button {
+    margin: auto 650px;
+    margin-top: 250px; 
+    color: rgb(250, 250, 250);
+    background-color: rgb(225, 102, 0);
+    border-color: rgb(255, 102, 0);
+    border-radius: 50px;
+    width: 80px;
+    padding: 10px;
+    
+}
+button:hover{
+    transform: scale(1.0);
+    background: rgb(225, 152, 16);
+}
+
+.parteDos {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    justify-content: space-between; 
+    width: 100%; 
+    padding: 70px;
+    gap: 5px;
+    justify-content: space-evenly;
+}
+.parteDos .texto {
+    display: flex;
+    flex-direction: column; 
+    gap: 1px; 
+    max-width: 50%;
+    margin-left: 150px;
+    
+}
+.parteDos h2 {
+    display: flex;
+    font-size: 30px;
+    margin: 0;
+    color: orange;
+    justify-content: flex-start;
+}
+.parteDos p{
+    font-size: 20px;
+    margin: 0;
+}
+.parteDos img {
+    max-width: 300px; 
+    height: auto; 
+    gap: 1px;
+    margin-right: 300px;
+}
+.parteDos button{
+    margin: 2px;
+    padding: 10px;
+    
+}
+.parteTres {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 330px; 
+  margin: 100px; 
+  margin-left: 760px;
+  
+}
+
+.parteTres-content {
+  flex: 1; 
+  text-align: left; 
+}
+
+.parteTres-image {
+  flex: 1; 
+  display: flex;
+  justify-content: center; 
+}
+
+img.parteTres-image {
+  max-width: 100px; 
+  height: auto; 
+  margin: 200px;
+}
+.parteTres-content .button{
+  margin-left: -45px;
+  width: 70px;
+  margin-top: 0;
+}
+
+.parteTres-content h2 {
+  font-size: 24px; 
+  margin-bottom: 10px;
+  color: orange; 
+  text-align: left; 
+  margin-left: -150px;
+}
+
+.parteTres-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-left: -150px;
+  margin-bottom: 20px;
+}
+
+.parteCuatro {
+    background: url(../assets/images/cuatro.png) center / cover no-repeat;
+    color: #ff7f32;
+    width: 100%;
+    height: 600px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+  }
+  .parteCuatro h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    margin-left: 170px;
+  }
+  
+  .parteCuatro p {
+    font-size: 25px;
+    color: #333;
+    max-width: 500px;
+    margin-bottom: 15px;
+    margin-left: 170px;
+  }
+  
+  .button2 {
+    margin-top: 0;
+    margin-left: 165px;
+  }
+  
+  
+  
+  .footer {
+    background: rgb(225, 115, 11);
+    width: 100%;
+    padding: 40px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .columna {
+    min-width: 150px;
+    margin: 10px;
+  }
+  
+  .columna h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .columna ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .columna ul li {
+    margin-bottom: 5px;
+  }
+  
+  .columna ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    
+  }
+  .derechos {
+    width: 100%;
+    background: rgb(225, 106, 9);
+    color: #ece8e8;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+    filter: drop-shadow(0px 5px 10px rgb(110, 108, 108));
+    
+  }
+ 
+  
+  
+  
